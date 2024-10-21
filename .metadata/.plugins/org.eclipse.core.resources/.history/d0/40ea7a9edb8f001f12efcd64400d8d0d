@@ -1,0 +1,26 @@
+package iterator;
+
+public class Program4 {
+
+static int x=32;
+       int y=45;
+public static void main(String[] args) {
+	System.out.println("main method start");
+	System.out.println(x);
+	
+	Program4.test();
+}
+public static void test()
+{
+	Program4 p1=new Program4();
+	int x=40;
+//	int y=50;
+	System.out.println(x);
+	System.out.println(p1.x);
+	System.out.println(p1.y);
+	
+}
+
+
+
+}
