@@ -20,12 +20,10 @@ public class Program4 {
 		Iterator itr=c.iterator();
 		while(itr.hasNext()) {
 			Object o=itr.next();
-//			System.out.println(c);
+			System.out.println(c);
 			if(!(o instanceof Integer))
 				itr.remove();
 		}
-		System.out.println("After the removing Collection:");
-		System.out.println(c);
 	}
 	
 }

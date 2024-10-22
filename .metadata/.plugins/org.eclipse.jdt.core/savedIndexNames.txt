@@ -1,4 +1,3 @@
 INDEX VERSION 1.134+D:\Collection Framework\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
-1625888375.index
 3789441337.index

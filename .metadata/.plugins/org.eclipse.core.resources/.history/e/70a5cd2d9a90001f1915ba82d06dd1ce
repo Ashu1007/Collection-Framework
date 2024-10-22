@@ -16,16 +16,11 @@ public class Program4 {
 	public static void removeNotInteger(Collection c) {
 		System.out.println("Collection Before remove not integer: ");
 		System.out.println(c);
-		System.out.println("==================");
 		Iterator itr=c.iterator();
 		while(itr.hasNext()) {
 			Object o=itr.next();
-//			System.out.println(c);
-			if(!(o instanceof Integer))
-				itr.remove();
+			System.out.println(o);
 		}
-		System.out.println("After the removing Collection:");
-		System.out.println(c);
 	}
 	
 }

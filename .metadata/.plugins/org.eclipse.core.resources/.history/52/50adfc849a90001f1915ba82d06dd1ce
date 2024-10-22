@@ -24,8 +24,6 @@ public class Program4 {
 			if(!(o instanceof Integer))
 				itr.remove();
 		}
-		System.out.println("After the removing Collection:");
-		System.out.println(c);
 	}
 	
 }
